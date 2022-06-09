@@ -2,6 +2,12 @@
 
 Elixir 源码注释
 
+## Build
+
+```bash
+make clean compile
+```
+
 ## Test
 
 ```bash
