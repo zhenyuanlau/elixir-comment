@@ -4,11 +4,6 @@
 
 目标-依赖-命令
 
-```mak
-clean:
-	@rm -rf ebin
-```
-
 ## 工作原理
 
 make
@@ -60,9 +55,3 @@ ifeq ($(origin FOO), undefined)
 endif
 
 ```
-
-## 函数
-
-## 隐式规则
-
-### 自动化变量
