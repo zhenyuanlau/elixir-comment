@@ -13,3 +13,7 @@ make clean compile
 ```bash
 bin/elixirc example/hello.ex
 ```
+
+## Doc
+
+Elixir 源码注释/预备知识.
