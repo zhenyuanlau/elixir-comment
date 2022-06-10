@@ -12,6 +12,8 @@ make clean compile
 
 ```bash
 bin/elixirc example/hello.ex
+
+bin/elixir example/mine.exs
 ```
 
 ## Doc
