@@ -73,6 +73,14 @@ exit 1
 
 ### 复合命令
 
+#### 分组命令
+
+```bash
+# The exit status of both of these constructs is the exit status of list.
+
+{ [ $# -eq 1 ] && { [ "$1" = "--help" ] || [ "$1" = "-h" ]; }; }
+```
+
 #### 条件结构
 
 ```bash
@@ -161,6 +169,8 @@ erl_set () {
 
 ### `*` 和 `@` 扩展语义
 
-### `{}` 扩展语义
-
 ### 重定向
+
+## 参考
+
+[Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
