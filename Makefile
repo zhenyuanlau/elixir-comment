@@ -6,7 +6,7 @@ GENERATE_APP := $(CURDIR)/generate_app.escript
 VERSION := $(strip $(shell cat VERSION))
 Q := @
 
-.PHONY: compile erlang elixir unicode app clean clean_residual_files
+.PHONY: compile erlang elixir unicode app clean clean_elixir clean_residual_files
 .NOTPARALLEL: compile
 
 #==> Functions
