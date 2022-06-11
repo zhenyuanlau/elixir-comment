@@ -1,4 +1,5 @@
 defmodule Kernel.CLI do
+
   @moduledoc false
 
   @compile {:no_warn_undefined, [Logger, IEx]}
