@@ -1,4 +1,4 @@
-# 解析工具
+# Elixir 语法解析
 
 Elixir 使用 `yecc` 生成语法解析器, 通过 `elixir_tokenizer` 实现词法解析.
 

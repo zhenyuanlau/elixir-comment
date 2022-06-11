@@ -113,7 +113,7 @@ done
 
 2. `eval` 动态创建变量 Eₙ, 保存参数
 
-## 结论
+## 重点
 
 `elixir`/`elixirc` 的入口点是 `elixir:start_cli`.
 

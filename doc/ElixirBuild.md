@@ -43,10 +43,13 @@ UNICODE := ebin/Elixir.String.Unicode.beam
 ```
 
 变量 `VERSION` 为 VERSION 文件的内容
+
 变量 `GENERATE_APP` 为 OTP 应用资源文件构建脚本路径.
 
 目录 `src` 存放 Elixir 的实现
+
 目录 `lib` 存放 Elixir 标准库的实现
+
 目录 `ebin` 存放 Erlang 字节码
 
 ### 构建 APP
@@ -73,7 +76,7 @@ $(ELIXIRC) "lib/**/*.ex" -o ebin
 
 这里有点自举的意思, 但是使用 `elixir` 编译代码, 需要依赖 `Elixir.Kernel`.
 
-## 结论
+## 重点
 
 1. Elixir 是一个 OTP 应用
 2. Elixir 编译的入口点是 `elixir_compiler:bootstrap`
