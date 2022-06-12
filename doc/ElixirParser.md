@@ -91,7 +91,7 @@ Left := 解析器从左向右移动, 处理 `Token` 流
 
 Reversed Rightmost Derivation := 解析器自底向上, 通过移动/归约匹配语法规则
 
-Look-Ahead := 解析器查看下一个 `Token`, 或移动或归约
+Look-Ahead := 解析器查看下一个 `Token`, 或移进或归约
 
 ## 重点
 
