@@ -1,33 +1,7 @@
 ebin
 logs
 
-# !ebin/Elixir.Code.beam
-# !ebin/Elixir.Enum.beam
-# !ebin/Elixir.File.beam
-# !ebin/Elixir.IO.beam
-# !ebin/Elixir.System.beam
-# !ebin/Elixir.Kernel.CLI.beam
-# !ebin/Elixir.Kernel.LexicalTracker.beam
-# !ebin/Elixir.List.beam
-# !ebin/Elixir.Module.ParallelChecker.beam
-# !ebin/Elixir.Path.beam
-
-# !ebin/Elixir.Exception.beam
-# !ebin/Elixir.Kernel.beam
-# !ebin/Elixir.Inspect.Opts.beam
-# !ebin/Elixir.Inspect.Algebra.beam
-# !ebin/Elixir.Keyword.beam
-# !ebin/Elixir.Path.beam
-# !ebin//Elixir.Path.Wildcard.beam
-# !ebin/Elixir.Kernel.ParallelCompiler.beam
-# !ebin/Elixir.ErlangError.beam
-# !ebin/Elixir.Inspect.beam
-# !ebin/Elixir.Inspect.Any.beam
-# !ebin/Elixir.Inspect.PID.beam
-# !ebin/Elixir.MatchError.beam
-# !ebin/Elixir.Inspect.Port.beam
-# !ebin/Elixir.Inspect.Atom.beam
-# !ebin/Elixir.Macro.beam
-# !ebin/Elixir.Code.Identifier.beam
-
 erl_crash.dump
+
+chore/compiler/parser.erl
+chore/compiler/tokenizer.erl
